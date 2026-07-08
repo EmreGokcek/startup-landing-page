@@ -1,0 +1,26 @@
+{
+  "name": "startup-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./input.css -o ./output.css --content \"./index.html\"",
+    "watch:css": "tailwindcss -i ./input.css -o ./output.css --content \"./index.html\" --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmreGokcek/startup-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EmreGokcek/startup-landing-page/issues"
+  },
+  "homepage": "https://github.com/EmreGokcek/startup-landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
